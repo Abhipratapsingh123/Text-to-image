@@ -1,4 +1,4 @@
-import requests
+import requests  
 import streamlit as st
 
 # Define the URL for the image generation API
@@ -15,7 +15,7 @@ headers = {
 st.title("Image Generator using Text")
 
 # Add a text input for the user to enter their prompt
-user_input = st.text_input("Enter a description:", "an Indian girl")
+user_input = st.text_input("Enter a description:", "A Dog")
 
 # When the button is pressed, send the request to the API
 if st.button("Generate Image"):
