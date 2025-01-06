@@ -2,12 +2,12 @@ import requests
 import streamlit as st
 
 # Define the URL for the image generation API
-url = "https://open-ai21.p.rapidapi.com/texttoimage2"
+url = "https://chatgpt-vision1.p.rapidapi.com/texttoimageplus"
 
 # Define the headers for the API request
 headers = {
     "x-rapidapi-key": "4397f85e77mshaf2c5c3aca06607p187fcdjsnb57f03614d8c",
-    "x-rapidapi-host": "open-ai21.p.rapidapi.com",
+    "x-rapidapi-host": "chatgpt-vision1.p.rapidapi.com",
     "Content-Type": "application/json"
 }
 
